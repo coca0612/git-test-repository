@@ -28,16 +28,14 @@ body {
 .header .logo h1 {
     font-size: 24px;
     font-weight: 400;
-    margin: 0;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin: 0 0 20px 10px;
     padding: 0;
 }
 
 .header-btn {
     display: flex;
-    gap: 10px;
-    padding-right: 55px;
+    gap: 5px;
+    padding-right: 50px;
 }
 
 .header-btn a {
@@ -124,7 +122,7 @@ body {
 .access-info__location{
     display: flex;
     text-align: left;
-    padding-left: 150px;
+    padding-left: 180px;
     line-height: 2.8;
     padding-bottom: 20px;
 }
@@ -132,7 +130,7 @@ body {
 .access-info__parking {
     display: flex;
     text-align: left;
-    padding-left: 150px;
+    padding-left: 180px;
     line-height: 2.8;
     padding-bottom: 40px;
 }

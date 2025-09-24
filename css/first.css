@@ -28,16 +28,14 @@ body {
 .header .logo h1 {
     font-size: 24px;
     font-weight: 400;
-    margin: 0;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin: 0 0 20px 10px;
     padding: 0;
 }
 
 .header-btn {
     display: flex;
-    gap: 10px;
-    padding-right: 55px;
+    gap: 5px;
+    padding-right: 50px;
 }
 
 .header-btn a {
@@ -102,12 +100,12 @@ body {
     display:flex;
     font-size: 20px;
     font-weight: 700;
-    padding-left: 60px;
+    padding-left: 80px;
     padding-bottom: 20px;
 }
 
 .guide-text {
-    padding-left: 60px;
+    padding-left: 80px;
     padding-bottom: 60px;
     line-height: 1.8;
 }
@@ -116,7 +114,7 @@ body {
     display:flex;
     font-size: 20px;
     font-weight: 700;
-    padding-left: 60px;
+    padding-left: 80px;
     padding-bottom: 20px;
 }
 
@@ -166,13 +164,13 @@ body {
     display:flex;
     font-size: 2rem ;
     font-weight: 700;
-    padding-left: 60px;
+    padding-left: 80px;
     padding-bottom: 40px;
     text-align: left;
 }
 
 .stuff-item {
-    padding-left: 100px;
+    padding-left: 120px;
     padding-bottom: 60px;
     text-align: left;
     line-height: 2.8;
