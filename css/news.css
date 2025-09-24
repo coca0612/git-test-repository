@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Zen Maru Gothic", sans-serif;
+    background-color: #fff;
+    font-size: 16px;
+    padding: 40px;
+}
+
+.header {
+    padding: 20px 40px;
+    background: #fff;
+    margin-bottom: 15px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.header .logo h1 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.header-btn {
+    display: flex;
+    gap: 10px;
+    padding-right: 55px;
+}
+
+.header-btn a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.btn-reserve {
+    background: #E75480;  
+    color: #fff;
+    text-align: center;
+    width: 100px;
+    padding:10px 10px;
+    border-radius: 16px;
+}
+
+.btn-contact {
+    background: #E6E6FA;   
+    color: #333;
+    text-align: center;
+    width: 100px;
+    padding:10px 10px;
+    border-radius: 16px;
+    gap: 12px;
+}
+
+.header-nav {
+    margin-top:  10px;
+    margin-bottom: 40px;
+}
+
+.header-nav ul {
+    display: flex;
+    justify-self: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 80px;
+}
+
+.header-nav ul li a {
+    display: block;
+    width: 100px;            
+    padding: 16px 24px;
+    border-radius: 16px;
+    background-color: #FFF0F5;
+    color: #333;
+    font-size: 12px;
+    text-decoration: none;
+    text-align: center;  
+    white-space: nowrap;      
+}
+
+.header-nav ul li a.active {
+    background-color: #FFB7C5;
+    color: #fff;
+    text-align: center;
+}
+.news {
+    background-color: #FFDEE5;
+    border-radius: 36px;
+    padding: 40px; 
+    max-width: 900px;
+    margin: 0 auto 50px;  
+}
+
+.news-top {
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 80px;
+    padding: 40px;
+    text-align: center;
+}
+.top-text {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.news-item {
+    padding: 30px 0;
+    border-bottom: 1px solid #333;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.news-item:last-child {
+    border-bottom: none; 
+}
+
+.news-content-wrap {
+    background-color: #fff;
+    border-radius: 36px;
+    max-width: 800px;
+    margin: 0 auto 50px;
+}
+
+.news-date {
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.news-content {
+    padding-left: 10px;
+    line-height: 1.8;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 40px;
+}
