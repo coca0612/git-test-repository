@@ -82,7 +82,9 @@
 
 .aesthetic-clinic {
     background-color: #FFB7C5;
+    width: 100vw;
     padding: 40px 40px;
+    box-sizing: border-box;
 }
 
 .aesthetic-title {

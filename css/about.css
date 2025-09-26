@@ -34,22 +34,30 @@
     display:flex;
     font-size: 20px;
     font-weight: 700;
-    padding-left: 60px;
+    padding-left: 0;
     padding-bottom: 20px;
 }
 
 .clinic-features {
     background-color: #FFF0F5;
-    max-width: 1200px;
-    padding: 40px;
-    margin: 0 auto; 
+    width: 100vw;
+    padding: 40px 40px;
+    margin: 0; 
+    box-sizing: border-box;
 }
+
+.feature-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;   
+}
+
 .features {
     display: flex;
     justify-content: space-around;
     align-items: center; 
     text-align: center;
-    margin: 40px 40px; 
+    margin: 40px 0; 
 }
 
 .feature-item img {
