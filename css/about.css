@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+.company {
+    background: #fff;
+    padding: 100px 0;
+}
+
+.company .inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.company-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: start;
+}
+
+.company-title {
+    font-size: 32px;
+    margin-bottom: 32px;
+    font-family: 'Playfair Display', serif;
+}
+
+.company-list {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    row-gap: 30px;
+    column-gap: 24px;
+}
+
+.company-list dt {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.company-list dd {
+    margin: 0;
+}
+
+.map {
+    width: 100%;
+    height: 310px;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 16px;
+}
+
+
+@media screen and (max-width: 1024px){
+
+.company .inner {
+    max-width: 960px;
+    padding: 0 24px;
+}
+
+.company-grid {
+    gap: 80px;
+}
+
+.company-profile {
+    max-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.map {
+    width: 410px;
+    height: 300px;
+}
+}
+
+@media screen and (max-width: 820px) {
+
+.company-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+
+.company-profile {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    background: #E8F5F9;
+    border-radius: 16px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    padding: 40px;
+}
+
+.company-title {
+    font-size: 24px;
+    text-align: center;
+}
+
+
+.company-list {
+    display: grid;
+    grid-template-columns: 140px 1fr; 
+    row-gap: 30px;
+    column-gap: 140px;               
+}
+
+.company-list dt {
+    text-align: left;   
+    padding-left: 60px;   
+}
+
+.company-list dd {
+    margin: 0;
+}
+
+.map {
+    width: 100%;         
+    max-width: 600px;    
+    height: 300px;
+    margin: 0 auto;       
+}
+}
+
+
+@media screen and (max-width: 430px) {
+
+.company-profile{
+    max-width: 350px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.company-profile {
+    padding: 24px;
+}
+
+.company-list {
+
+    column-gap: 20px;               
+}
+
+.company-list dt {  
+    padding-left: 20px;   
+}
+
+.map  {
+    max-width: 350px;
+}
+}
