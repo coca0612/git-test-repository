@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+.recruit-card {
+  width: auto;   
+  max-width: none;        
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  padding: 32px;
+  flex: 1;
+}
+
+.card__title {
+  font-size: 22px;
+}
+
+.recruit__list {
+  width: fit-content;     
+  margin: 16px auto 0;   
+  padding-left: 1.2em;  
+  text-align: left;     
+  line-height: 1.8;
+}
+
+.recruit__list li {
+  margin-bottom: 8px;
+}
+
+.recruit__list li:last-child {
+  margin-bottom: 0;
+}
+
+.environment {
+  padding: 100px 20px;
+}
+
+.recruit__environment {
+  background: #E8F5F9;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  padding: 40px 56px;
+  border-radius: 16px;
+  margin-bottom: 60px;
+}
+
+.recruit__env-title {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.recruit__env-text {
+  line-height: 1.8;
+}
+
+@media screen and (max-width: 1024px) {
+.environment {
+  padding: 80px 40px;
+}
+
+.environment__inner {
+  max-width: 960px;     
+}
+
+.recruit__env-title {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+.recruit-card {
+  width: 100%;
+  max-width: 760px;
+}
+
+.card__title {
+  font-size: 24px;
+}
+
+.recruit__list {
+  font-size: 20px;
+}
+
+.recruit__list li {
+  margin-bottom: 18px;
+}
+
+.recruit-card {
+  width: 100%;        
+  max-width: none;
+}
+
+.recruit__environment {
+  max-width: 600px;   
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 16px;
+}
+
+.recruit__env-text {
+  font-size: 18px;
+}
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .environment {
+    padding: 60px 20px;
+  }
+
+  .recruit__environment {
+    padding: 24px;
+  }
+
+  .recruit__env-title {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .recruit__env-text {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+}
+
+
+@media screen and (max-width: 430px) {
+
+.recruit-card {
+  width: 100%;
+  max-width: 360px;   
+  margin: 0 auto;
+  padding: 16px 20px;
+  box-sizing: border-box;
+}
+
+.card__title {
+  font-size: 20px;
+  text-align: center;
+}
+
+.recruit__list {
+  font-size: 16px;
+  margin-top: 12px;
+}
+
+.recruit__env-title {
+  font-size: 20px;
+}
+}
+
+@media screen and (max-width: 375px) {
+.card__title,
+.recruit__env-title {
+  font-size: 18px;
+}
+.recruit__list {
+  font-size: 14px;
+}
+}
+
