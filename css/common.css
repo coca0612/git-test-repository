@@ -108,16 +108,18 @@ text-decoration: none;
 .recruit,
 .contact {
     background: #E8F5F9;
-    padding: 100px 20px;
+    padding: 100px 0;
 }
 
 .inner {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
+    padding: 0 90px;
 }
 
 .section-title {
     font-size: 28px;
+    margin-bottom: 24px;
 }
 
 .about__text,
@@ -157,19 +159,21 @@ text-decoration: none;
 }
 
 .card__body {
+    display: flex;
+    flex-direction: column;
     padding: 24px;
 }
 
 .card__title {
     font-family: 'Noto Serif', serif;;
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
     margin-bottom: 15px;
 }
 
 .card__text {
-    font-size: 14px;
     line-height: 1.6;
+    flex-grow: 1;
 }
 
 .section-cta {
@@ -193,7 +197,9 @@ text-decoration: none;
     padding: 10px 20px;
     border-radius: 30px;
     text-align: center;
-    transition: 0.3s;
+    transition: background-color 0.3s ease,
+            color 0.3s ease,
+            transform 0.3s ease;
 }
 
 .section-cta .btn:hover {
@@ -300,8 +306,8 @@ text-decoration: none;
 
 @media screen and (max-width: 1024px) {
 .header__inner {
-    max-width: 960px;  
-    padding: 0 24px;  
+    max-width: 1000px;  
+    padding: 0 40px;  
 }
 
 .header__logo a {
@@ -490,7 +496,7 @@ text-decoration: none;
 
 
 .footer {
-    padding: 32px 0; 
+    padding: 40px 0; 
 }
 
 .footer__inner {
@@ -530,8 +536,10 @@ text-decoration: none;
 
 .about__text,
 .service__text,
-.recruit__text {
+.recruit__text,
+.contact__text {
     font-size: 14px;
+    margin-bottom: 40px;
 }
 
 .card-list {
@@ -681,4 +689,15 @@ body {
 .header__logo a {
     margin-left: 15px;
 }
+}
+
+@media screen and (max-width: 375px) {
+.footer__logo {
+    font-size: 16px;
+}
+
+.footer__nav-list a {
+    font-size: 12px;
+}
+
 }

@@ -1,12 +1,18 @@
 @charset "UTF-8";
 
 .recruit-card {
-  width: 300px;           
+  width: auto;   
+  max-width: none;        
   background: #fff;
   border-radius: 16px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   overflow: hidden;
   padding: 32px;
+  flex: 1;
+}
+
+.card__title {
+  font-size: 22px;
 }
 
 .recruit__list {
@@ -14,7 +20,6 @@
   margin: 16px auto 0;   
   padding-left: 1.2em;  
   text-align: left;     
-  font-size: 14px;
   line-height: 1.8;
 }
 
@@ -26,11 +31,9 @@
   margin-bottom: 0;
 }
 
-
 .environment {
   padding: 100px 20px;
 }
-
 
 .recruit__environment {
   background: #E8F5F9;
@@ -41,7 +44,7 @@
 }
 
 .recruit__env-title {
-  font-size: 26px;
+  font-size: 22px;
   margin-bottom: 20px;
 }
 
@@ -123,28 +126,36 @@
 
 @media screen and (max-width: 430px) {
 
-
-  .recruit-card {
-    width: 100%;
-    max-width: 360px;   
-    margin: 0 auto;
-    padding: 16px 20px;
-    box-sizing: border-box;
-  }
-
-  .card__title {
-    font-size: 20px;
-    text-align: center;
-  }
-
-  .recruit__list {
-    font-size: 16px;
-    margin-top: 12px;
-  }
-
-  .recruit__env-title {
-    font-size: 20px;
-  }
+.recruit-card {
+  width: 100%;
+  max-width: 360px;   
+  margin: 0 auto;
+  padding: 16px 20px;
+  box-sizing: border-box;
 }
 
+.card__title {
+  font-size: 20px;
+  text-align: center;
+}
+
+.recruit__list {
+  font-size: 16px;
+  margin-top: 12px;
+}
+
+.recruit__env-title {
+  font-size: 20px;
+}
+}
+
+@media screen and (max-width: 375px) {
+.card__title,
+.recruit__env-title {
+  font-size: 18px;
+}
+.recruit__list {
+  font-size: 14px;
+}
+}
 

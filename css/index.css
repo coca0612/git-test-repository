@@ -33,11 +33,6 @@
   background: #E8F5F9;
 }
 
-.features .inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 40px;
-}
 
 .features__cards {
   display: grid;
@@ -82,6 +77,9 @@
   font-weight: 700;
   width: fit-content;
   margin: 0 auto;
+  transition: background-color 0.3s ease,
+              color 0.3s ease,
+              transform 0.3s ease;
 }
 
 .btn:hover {
@@ -95,10 +93,6 @@
   padding: 100px 0;
 }
 
-.menu-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-}
 
 .menu__title {
   font-size: 24px;
@@ -110,15 +104,13 @@
   display: flex;
   gap: 40px;
   justify-content: center;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .menu-card {
   display: flex;
   flex-direction: column;
   background: #E8F5F9;
-  width: 320px;
+  width: 100%;
   padding: 32px;
   border-radius: 16px;
   box-shadow: 0 4px 12px rgba(0,0,0,.15);
@@ -157,6 +149,10 @@
   text-align: left;
 }
 
+.service-list li:last-child {
+  margin-bottom: 0;
+}
+
 .service-list li::before {
   content: "・";
   position: absolute;
@@ -166,8 +162,6 @@
 
 
 @media screen and (max-width: 1024px) {
-
-
 
   .features__cards {
     gap: 32px;
@@ -213,11 +207,10 @@
 }
 
 .features__sub-title {
-    font-size: 15px;
-    margin-bottom: 20px;
+  font-size: 15px;
+  margin-bottom: 20px;
 }
 
-/* text */
 .features__text {
   font-size: 18px;
   margin-bottom: 20px;
@@ -232,91 +225,88 @@
 
 .features__card {
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
     text-align: center;
-  }
+}
 
 .menu__title {
   text-align: center;
 }
 
 .menu-cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 32px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
 
 .menu-card {
-    width: 100%;
-    max-width: 480px;
-    padding: 32px;
-  }
+  width: 100%;
+  max-width: 600px;
+  padding: 32px;
+}
 
-  .menu-card__title {
-    margin-bottom: 10px;
-  }
+.menu-card__title {
+  margin-bottom: 10px;
+}
 
   .service-list-wrap {
   margin-top: 24px;  
 }
 
 .service-list {
-    list-style: none;
-    background: #fff;
-    padding: 24px 32px;
-    border-radius: 16px;
-    margin: 0;
-    text-align: center;
-    min-width: 220px;     
-  }
+  list-style: none;
+  background: #fff;
+  padding: 24px 32px;
+  border-radius: 16px;
+  margin: 0;
+  text-align: center;
+  min-width: 220px;     
+}
 
-  .service-list li {  
+.service-list li {  
   font-size: 18px;
 }
 }
 
 @media screen and (max-width: 430px) {
-  .fv {
-    height: 60vh;
+
+.fv {
+  height: 60vh;
 }
 
 .fv__title {
-    font-size: 26px;
+  font-size: 26px;
 }
 
 .fv__sub {
-    font-size: 14px;
+  font-size: 14px;
 }
 
-.features .inner {
-    padding: 0 16px;
-  }
+.features__cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .features__cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.features__card {
+  width: 100%;
+  max-width: 330px;
+  margin: 0 auto;
+}
 
-  .features__card {
-    width: 100%;
-    max-width: 310px;
-    margin: 0 auto;
-  }
-
-  .menu__title {
-    font-size: 20px;
-  }
+.menu__title {
+  font-size: 20px;
+}
 
 .menu-card {
-    width: 100%;
-    max-width: 330px;   
-    padding: 20px 16px;
-    margin: 0 auto;  
-  }
+  width: 100%;
+  max-width: 330px;   
+  padding: 20px 16px;
+  margin: 0 auto;  
+}
 
-  .service-list li {
-    font-size: 16px;
-  }
+.service-list li {
+  font-size: 16px;
+}
 }
