@@ -1,12 +1,13 @@
 @charset "UTF-8";
 
 .flow {
-  padding: 100px 20px;
+  padding: 100px 0;
 }
 
 .flow__inner {
   max-width: 1400px;
   margin: 0 auto;
+  padding: 0 90px;
 }
 
 
