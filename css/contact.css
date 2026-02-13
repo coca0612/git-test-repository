@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+.contact__inner {
+  max-width: 720px;  
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 .contact__form {
   max-width: 100%;
   margin: 0 auto;
