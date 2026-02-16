@@ -66,6 +66,12 @@
   }
 }
 
+@media screen and (max-width: 831px){
+.recruit-card {
+  padding: 5%;
+}
+}
+
 @media screen and (max-width: 820px) {
 .recruit-card {
   width: 100%;

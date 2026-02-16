@@ -6,7 +6,6 @@
   padding: 0 20px;
 }
 
-
 .contact__form {
   max-width: 900px;
   margin: 0 auto;
@@ -166,4 +165,15 @@
     margin-bottom: 24px;
   }
 
+}
+
+@media screen and (max-width: 320px) {
+.contact__submit {
+  width: 100%;
+  max-width: 280px;
+  padding: 14px;
+  font-size: 16px;
+  margin: 0 auto;
+  display: block;
+}
 }

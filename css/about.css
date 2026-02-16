@@ -126,6 +126,13 @@
 }
 }
 
+@media screen and (max-width: 500px) {
+    .company .inner {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+}
 
 @media screen and (max-width: 430px) {
 
@@ -151,5 +158,12 @@
 
 .map  {
     max-width: 350px;
+}
+}
+
+@media screen and (max-width: 320px) {
+.company .inner {
+    padding: 0 20px;
+    margin: 0 auto;
 }
 }
