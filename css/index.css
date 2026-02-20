@@ -95,7 +95,6 @@
   padding: 100px 0;
 }
 
-
 .menu__title {
   font-size: 24px;
   margin: 0 0 60px 10px;
@@ -122,7 +121,6 @@
 .menu-card__title {
   font-size: 18px;
   text-align: center;
-  margin-bottom: 16px;
 }
 
 .menu-card p {
@@ -345,24 +343,29 @@
 
 @media screen and (max-width: 320px) {
 
-.fv {
-  height: calc(100vh - 60px);
-}
-
 .menu-card {
-  padding: 24px;
+  display: block;
+  padding: 20px;
+  gap: 0; 
 }
 
 .menu-card__title {
-  margin-bottom: 16px;
+  margin-bottom: 0;
 }
 
 .menu-card p {
-  margin-bottom: 16px;
+  margin: 8px 0 16px;
 }
+
+.service-list {
+  max-width: 240px; 
+  text-align: left;
+  margin: 12px auto 0;
+  padding: 16px;
+}
+
 
 .service-list li {
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
-
 }

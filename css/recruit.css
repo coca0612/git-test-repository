@@ -7,7 +7,7 @@
   border-radius: 16px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   overflow: hidden;
-  padding: 32px;
+  padding: 2rem;
   flex: 1;
 }
 
@@ -17,7 +17,7 @@
 
 .recruit__list {
   width: fit-content;     
-  margin: 16px auto 0;   
+  margin: 1rem auto 0;   
   padding-left: 1.2em;  
   text-align: left;     
   line-height: 1.8;
@@ -32,20 +32,20 @@
 }
 
 .environment {
-  padding: 100px 20px;
+  padding: 6.25rem 1.25rem;
 }
 
 .recruit__environment {
   background: #E8F5F9;
   box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-  padding: 40px 56px;
+  padding: 2.5rem 3.5rem;
   border-radius: 16px;
-  margin-bottom: 60px;
+  margin-bottom: 3.75rem;
 }
 
 .recruit__env-title {
   font-size: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .recruit__env-text {
@@ -54,7 +54,7 @@
 
 @media screen and (max-width: 1024px) {
 .environment {
-  padding: 80px 40px;
+  padding: 6.25rem 2.5rem;
 }
 
 .environment__inner {
@@ -68,7 +68,7 @@
 
 @media screen and (max-width: 831px){
 .recruit-card {
-  padding: 5%;
+  padding: 1.5rem;
 }
 }
 
@@ -87,7 +87,7 @@
 }
 
 .recruit__list li {
-  margin-bottom: 18px;
+  margin-bottom: 1.125rem;
 }
 
 .recruit-card {
@@ -98,7 +98,7 @@
 .recruit__environment {
   max-width: 600px;   
   margin: 0 auto;
-  padding: 40px;
+  padding: 2.5rem;
   border-radius: 16px;
 }
 
@@ -111,11 +111,11 @@
 @media screen and (max-width: 768px) {
 
   .environment {
-    padding: 60px 20px;
+    padding: 4.375rem 1.25rem;
   }
 
   .recruit__environment {
-    padding: 24px;
+    padding: 1.5rem;
   }
 
   .recruit__env-title {
@@ -136,7 +136,7 @@
   width: 100%;
   max-width: 360px;   
   margin: 0 auto;
-  padding: 16px 20px;
+  padding: 1rem 1.25rem;
   box-sizing: border-box;
 }
 
@@ -147,7 +147,7 @@
 
 .recruit__list {
   font-size: 16px;
-  margin-top: 12px;
+  margin-top: 0.75rem;
 }
 
 .recruit__env-title {
