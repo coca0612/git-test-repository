@@ -389,7 +389,7 @@ text-decoration: none;
 }
 
 .header__logo a {
-    margin-left: 60px;
+    margin-left: 50px;
 }
 
 .header__nav {
@@ -572,7 +572,7 @@ text-decoration: none;
 .section-title {
     font-size: 24px;
     text-align: center;
-}
+} 
 
 .about__text,
 .service__text,
@@ -608,6 +608,21 @@ text-decoration: none;
     padding: 60px 0;
 }
 }  
+
+@media screen and (max-width: 459px) {
+
+.header__nav {
+    display: flex;
+    justify-content: center;
+}
+
+.header__list {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    align-items: center;
+}
+}
 
 @media screen and (max-width: 430px) {
 
